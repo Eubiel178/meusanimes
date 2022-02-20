@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'text';
+    src: url('fonts/idroid.otf') format('opentype');
+}
+@font-face {
+    font-family: 'title';
+    src: url('fonts/animeace2_bld.otf') format('opentype'), url('fonts/animeace2_ital.otf') format('opentype'), url('fonts/animeace2_reg.otf') format('opentype');
+}
+*{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imagens/download.jfif);
+}
+.head{
+    background-image: linear-gradient(to bottom, #506AD4, #26ade4);
+    box-shadow: 4px 4px 9px  rgba(0, 0, 0, 0.534);
+    height: 3.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3.5em;
+}
+.title{
+    text-shadow:  2px 2px 2px  rgba(0, 0, 0, 0.5);
+    font-family: 'title', Arial;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 14px;
+}
+#menu{
+    padding-top: 10px;
+    text-align: left;
+}
+#body{
+    background-color: #C2B8AD;
+    width: 80%;
+    margin: 0em auto 0px auto;
+    padding-top: 2em;
+}
+.sub{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color:#26ade4;
+    box-shadow: 4px 4px 9px  rgba(0, 0, 0, 0.595);  
+    padding-left: 1em;
+}
+.nav{
+    line-height: 1.8em;
+    text-align: center;
+}
+.list{
+    text-decoration: none;
+    inline-size: 70%;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Arial;
+    transition-duration: .6s;
+}
+.favoritos{
+    margin-top: 5em;
+}
+.photo{
+    border-radius: 7px;
+    box-shadow: 4px 4px 9px  rgba(0, 0, 0, 0.595);
+    margin: 1em 0em 0em 1em;
+    width: 30%;
+    min-width: 3em;
+}
+.state:hover{    
+    text-shadow:4px 4px 9px  rgba(0, 0, 0, 0.301);
+    color:white;
+    border-radius: 7px;
+    background-color: #506AD4;
+}
+.anime{ 
+    display: block;
+    text-indent: 1em;
+    font-size: 18px;
+    text-decoration: none;
+    width: 40%;
+}
+.color{
+    box-shadow: 4px 4px 9px  rgba(0, 0, 0, 0.595);
+    background-color:#534e4e ;   
+}
