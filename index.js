@@ -1,1 +1,0 @@
-alert("esse site foi desenvolvido por Gabriel.")
