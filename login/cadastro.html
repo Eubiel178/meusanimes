@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="96x96" rel="icon" href="icones/icons8-login-96.png">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <main class="main-container">
+        <header class="header">
+            <h1 class="title">Cadastre-se</h1>
+        </header>
+
+        <form class="form">
+            <fieldset class="primary-container">
+                <div class="flex-item">
+                    <label for="name"><span class="marked">Nome</span></label>
+                    <br>
+                    <input class="all-inputs" type="text" name="name" id="name" placeholder="Nome" required>
+                </div>
+                <div class="flex-items">
+                    <label for="last-name"><span class="marked">Sobrenome</span></label>
+                    <br>
+                    <input class="all-inputs" type="text" name="last-name" id="last-name" placeholder="Sobrenome" required>
+                </div>
+            </fieldset>
+            <fieldset class="second-container">
+                <label class="align-labels" for="name-user"><span class="marked">Escolha seu nome de usuário</span></label>
+                <input class="all-inputs" type="text" name="name-user" id="name-user" placeholder="username424" required>
+                <label class="align-labels" for="passaword"><span class="marked">Criar uma senha</span></label>
+                <input class="all-inputs" type="password" name="pasaword" id="passaword" placeholder="senha" required>
+                <label class="align-labels" for="passaword-confirm"><span class="marked">Confirme a sua senha</span></label>
+                <input class="all-inputs" type="password" name="passaword-confirm" id="passaword-confirm" placeholder="confirme sua senha" required>
+                <label class="align-labels" for="date-birth"><span class="marked">Data de nascimento
+                </span></label>
+                <input class="all-inputs" type="date" name="date-birth" id="date-birth" required>
+                <label class="align-labels" for="gender"><span class="marked">Genêro</span></label>
+                <select  class="all-inputs" name="gender" id="gender" required>
+                    <option selected value="">Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+                <label class="align-labels" for="cell"><span class="marked">Celular</span></label>
+                <input class="all-inputs" type="text" minlength="9" id="cell" name="cell" maxlength="20" placeholder="(DDD) 75 9 9934-8364" required>
+                <label class="align-labels" for="email"><span class="marked">Seu endereço de email atual</span></label>
+                <input class="all-inputs" type="email" name="email" id="email" placeholder="example123@gmail.com" required>
+            </fieldset>
+            <footer class="footer">
+                <button class="button">Criar conta</button>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>

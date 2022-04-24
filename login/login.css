@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border;
+}
+
+body {
+    background-color: #D9D5CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../imagens/login.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+    border: solid 2px #D2DFE0;
+    background-color: #F6F6F6;
+    width: 30em;
+}
+.form {
+    width: 90%;
+    margin-left: 1em;
+}
+
+.title {
+    padding: 17px 0px 7px 0px;
+    text-align: center;
+    font-weight: 400;
+    color: #027373;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    width: 55%;
+    margin: auto;
+    border: solid 1px #D2DFE0;
+    margin-bottom: 17px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-login{
+    height: 2.6em;
+    margin: 0.4em 0em 0.7em 0em;
+    text-indent: 1.6em;
+    border: solid 1px rgba(0, 0, 0, 0.349);
+    border-radius: 4px;
+}
+
+.email-icon {
+    background-image: url(icones/arroba.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+}
+
+.psw-icon {
+    background-image: url(icones/senha.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+}
+
+.input-login:focus {
+    background-color: #D2DFE0;
+}
+
+.save-dados {
+    margin: 0em 0.4em 0.7em 0em;
+}
+
+.button {
+    background-color: #3D9DB3;
+    color: white;
+    position: relative;
+    bottom: 1em;
+    border: 5px;
+    height: 2em;
+}
+
+.footer {
+    background-color: #E1EAEB;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+    align-items: center;
+    height: 3em;
+}
+
+.item-link {
+    border: solid 1px #DAE17C;
+    text-decoration: none;
+    color: #45B6CC;
+    padding: 0.1em 0.3em;
+    background-color: #F6F7F0;
+    margin: 0em 1.7em 0em 0.5em;
+}
+
+@media (max-width: 540px) {
+    .container {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .header {
+        padding-top: 3em;
+        padding-bottom: 1em;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .item-one-footer {
+        padding-left: 1em;
+    }
+
+    .footer {
+        margin-bottom: 0px;
+    }
+}

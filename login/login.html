@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link type="image/png" sizes="96x96" rel="icon" href="icones/icons8-login-96.png">
+    <title>login</title>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <h1 class="title">Login</h1>
+            <hr class="line">
+        </header>
+        <section class="section">
+            <form class="form">
+                <div class="flex-container"> 
+                    <label for="email">Seu e-mail</label>
+
+                    <input class="email-icon input-login" type="email" id="email" name="email" placeholder="example123@gmail.com" required>
+                </div>
+                <div class="flex-container"> 
+                    <label for="pswd">Sua senha</label>
+
+                    <input class="psw-icon input-login" type="password" id="pswd" name="pswd" placeholder="12345" required>
+                </div>
+                <div>
+                    <label>
+                        <input class="save-dados" type="checkbox" name="salvar-login" 
+                        id="salvar-dados">Manter-me logado
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label class="flex-container">
+                        <input  class="button" type="button" id="button" name="button" value="Logar">
+                    </label>
+                </div>
+            </form>
+            <footer class="footer">
+                <p class="footer-item item-one-footer">Ainda não tem conta?</p>
+                <a class="footer-item item-link" href="cadastro.html">Cadastre-se</a>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
