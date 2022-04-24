@@ -15,7 +15,7 @@
 }
 
 body {
-    height: 100%;
+    height: 100vh;
     padding-bottom: 0em;
     background-image: url(imagens/indexfundo.jpg);
     background-size: 100% 100%;
