@@ -78,6 +78,7 @@ body {
     }
 
     .main-container {
+        width: 100%;
         width: 25em;
         padding: 0em 1em 0em 1em;
     }
