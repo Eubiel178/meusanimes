@@ -16,8 +16,10 @@ body {
     align-items: center;
     height: 100vh;  
     background-image: url(../imagens/cadastrese.jpg);
-    background-repeat: repeat-y;
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 
 .main-container {
