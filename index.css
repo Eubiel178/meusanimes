@@ -91,6 +91,7 @@ body {
 }
 
 .container{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
     padding-top: 0px;
     width: 70%;
 }
