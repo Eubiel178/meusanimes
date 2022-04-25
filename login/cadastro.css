@@ -1,95 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
     border: 0px;
     box-sizing: border-box;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin-bottom: 0em;
     background-color: #D9D5CA;
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;  
     background-image: url(../imagens/cadastrese.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100% 100%;
 }
 
 .main-container {
+    margin-bottom: 0px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
     border: solid 2px #D2DFE0;
     background-color: #F6F6F6;
-    width: 30em;  
-    height: 100%; 
-    margin-bottom: 0px;
+    width: 30em;
 }
 
-.header {
-    padding: 1em;
-    background-color: #E1EAEB;
+.title {
+    padding: 17px 0px 7px 0px;
+    text-align: center;
+    font-weight: 400;
+    color: #027373;
 }
 
-.primary-container {
+.line {
+    width: 55%;
+    margin: auto;
+    border: solid 1px #D2DFE0;
+    margin-bottom: 17px;
+}
+
+.flex-container {
+    padding: 1em 0em;
     display: flex;
-    justify-content: space-between;
-    padding: 1em 4em 0em 1em;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.second-container {
-    display: flex;
-    flex-direction: column;
-    padding: 0em 4em 1em 1em;
-}
-
-.all-inputs {
-    margin: 5px 0px 1em 0px;
+.input-all {
+    text-indent: 2em;
+    height: 2.7em;
+    margin: 0.4em 1em 0.7em 0em;
     border: solid 1px rgba(0, 0, 0, 0.349);
-    height: 2em;
     border-radius: 4px;
-    text-indent: 0.6em;
 }
 
-.all-inputs:focus{
+.input-all:focus {
     background-color: #D2DFE0;
 }
 
-
-.button {    
-    background-color: #61BF5E;
-    padding: 1em 2em;
-    border-radius: 5px;
-    color: white;
-    position: relative;
-    left: 1em;
-    bottom: 10px;
+.container-repeat-passaword {
+    width: 88%;
+    margin-right: 0.9em;
 }
 
-@media (max-width: 600px) {
-    .primary-container {
+.input-repeat-passaword {
+    width: 100%;
+}
+
+.button-container {
+    width: 91%;
+}
+
+.button {
+    padding: 1em;
+    border-radius: 5px;
+    color: white;
+    background-color: #4A99B7;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+}
+
+.all-icon {
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+.name-icon {
+    background-image: url(/imagens/usuariio.png);
+}
+
+.user-name-icon {
+    background-image: url(/imagens/user-name.png);
+}
+
+.email-icon {
+    background-image: url(/imagens/email.png);
+}
+
+.passaword-icon {
+    background-image: url(/imagens/passaword.png);
+}
+
+@media (max-width: 540px) {
+    .main-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .flex-container {
+        padding: 1em 0em 0em 3em;
         display: flex;
         flex-direction: column;
-        padding: 1em 0em 0em 1em;
     }
 
-    .second-container {
-        padding: 0em 0em 1em 1em;
+    .input-all {
+        height: 2.7em;
+        margin: 0.4em 0em 0.7em 0em;
+        padding-right: 0em;
+        border: solid 1px rgba(0, 0, 0, 0.349);
+        border-radius: 4px;
+        width: 70%;
     }
 
-    .main-container {
+    .container-repeat-passaword {
+        width: 70%;
+    }
+    
+    .input-repeat-passaword {
         width: 100%;
-        width: 25em;
-        padding: 0em 1em 0em 1em;
     }
-
-    .header {
-        width: 24.7em;
-        margin-left: -1em;
-    }
-
-    .all-inputs {
-        width: 80%;
+    
+    .button {
+        font-size: 0.8em;
+        padding: 0.4em;
+        border-radius: 5px;
+        color: white;
+        background-color: #1d8d4a;
     }
 }

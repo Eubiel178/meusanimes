@@ -48,7 +48,7 @@ body {
     flex-direction: column;
 }
 
-.input-login{
+.input-login {
     height: 2.6em;
     margin: 0.4em 0em 0.7em 0em;
     text-indent: 1.6em;
@@ -77,12 +77,12 @@ body {
 }
 
 .button {
-    background-color: #3D9DB3;
+    padding: 1em;
+    border: 0px;
+    border-radius: 5px;
     color: white;
-    position: relative;
-    bottom: 1em;
-    border: 5px;
-    height: 2em;
+    background-color: #4A99B7;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
 }
 
 .footer {
@@ -105,7 +105,9 @@ body {
 
 @media (max-width: 540px) {
     .container {
+        height: 100vh;
         width: 100%;
+        margin: 0px;
     }
 
     .header {
@@ -117,7 +119,6 @@ body {
         position: absolute;
         bottom: 0px;
         width: 100%;
-        margin-bottom: 0px;
     }
 
     .item-one-footer {
