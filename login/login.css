@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-image: url(../imagens/login.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -109,7 +109,7 @@ body {
 
 @media (max-width: 540px) {
     .container {
-        height: 100vh;
+        height: 100%;
         width: 100%;
         margin: 0px;
     }
