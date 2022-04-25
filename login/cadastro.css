@@ -92,19 +92,19 @@ body {
 }
 
 .name-icon {
-    background-image: url(/imagens/usuariio.png);
+    background-image: url(icones/usuariio.png);
 }
 
 .user-name-icon {
-    background-image: url(/imagens/user-name.png);
+    background-image: url(icones/user-name.png);
 }
 
 .email-icon {
-    background-image: url(/imagens/email.png);
+    background-image: url(icones/email.png);
 }
 
 .passaword-icon {
-    background-image: url(/imagens/passaword.png);
+    background-image: url(icones/passaword.png);
 }
 
 @media (max-width: 540px) {
@@ -140,7 +140,5 @@ body {
         font-size: 0.8em;
         padding: 0.4em;
         border-radius: 5px;
-        color: white;
-        background-color: #1d8d4a;
     }
 }
