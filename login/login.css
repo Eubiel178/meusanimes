@@ -109,7 +109,7 @@ body {
 
 @media (max-width: 540px) {
     .container {
-        height: 60%; 
+        height: 100%; 
         width: 90%;
         margin: 0px;
     }
