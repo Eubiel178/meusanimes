@@ -55,16 +55,17 @@ body {
     border-radius: 4px;
 }
 
-.email-icon {
-    background-image: url(icones/arroba.png);
+.input-icon-config {
     background-repeat: no-repeat;
     background-position: 5px;
 }
 
+.email-icon {
+    background-image: url(icones/arroba.png);
+}
+
 .psw-icon {
-    background-image: url(icones/senha.png);
-    background-repeat: no-repeat;
-    background-position: 5px;
+    background-image: url(icones/passaword.png);
 }
 
 .input-login:focus {
