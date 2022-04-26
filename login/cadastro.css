@@ -112,8 +112,8 @@ body {
 @media (max-width: 540px) {
     .main-container {
         margin-bottom: 0em;
-        height: 90%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
     }
 
     .flex-container {
